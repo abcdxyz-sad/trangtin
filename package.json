@@ -4,15 +4,16 @@
 	"description": "Trang tin dien tu Nodejs + MongoDB Atlas",
 	"main": "index.js",
 	"scripts": {
-	  "test": "nodemon index.js"
+		"test": "nodemon index.js"
 	},
 	"author": "#672-AGU",
 	"license": "ISC",
 	"dependencies": {
-	  "bcryptjs": "^3.0.2",
-	  "ejs": "^3.1.10",
-	  "express": "^4.21.2",
-	  "mongoose": "^8.12.1"
+		"bcryptjs": "^3.0.2",
+		"ejs": "^3.1.10",
+		"express": "^4.21.2",
+		"express-session": "^1.18.1",
+		"mongoose": "^8.12.1",
+		"nodemon": "^3.1.9"
 	}
-  }
-  
+}
