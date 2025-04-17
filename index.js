@@ -55,6 +55,6 @@ app.use('/chude', chudeRouter);
 app.use('/taikhoan', taikhoanRouter);
 app.use('/baiviet', baivietRouter);
 
-app.listen(3000, () => {
+app.listen(3000, '216.24.60.0/24', () => {
 	console.log('Server is running at 216.24.60.0/24');
 });
